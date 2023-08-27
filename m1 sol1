@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m1 con.css">
+    <title>Document</title>
+</head>
+<body style="font-size: 25px;">
+    <form style="text-align: center;">
+        <table border="1"   cellspacing="3" align="center">
+            <tr>
+             <center><b>Resistration Form</b></center>
+                </tr>
+                <tr>
+     <td><CENTER><b>Enter your name:</b></CENTER></td>
+     <td><input type="text"></td>
+            </tr>
+      
+     <tr>
+    <td><center><b>GENDER:</b></center></td>
+     <td><input type="radio" id="male"  value="male">
+       <label for="male">male</label>
+      <input type="radio" id="female" value="female">
+       <label for="female">female</label></td>
+      </tr>
+     <br>
+     <tr>
+     <td><center><b>Description:</b></center></td>
+     <td><textarea type="description" rows="9" cols="40"></textarea></td>
+     </tr>
+<tr>
+  <td><center><b>passed out year</b></center></td>
+  <td><input type="date" name="date"></td>
+</tr>
+<tr>
+    <td><center><b>contact number</b></center></td>
+    <td><input type="text" placeholder="contact" name="contact"></td>
+  </tr>
+  <tr>
+    <td><center><b>categary</b></center></td>
+    <td><select>
+        <option>ALUMINI</option>
+        <option>NCC</option>
+        <option>NSS</option>
+        <option>SPORTS</option>
+        <option>ECELL</option>
+        <option>OTHER ACTIVITIES</option>
+    </select>
+    </td>
+</tr>
+<tr>
+    <td><center><b>Branch</b></center></td>
+    <td><input type="text" placeholder="Branch" name="branch"></td>
+  </tr>
+  
+<tr>
+    <td><center><input type="submit"></center></td>
+    <td><center><input type="reset"></center></td>
+</tr>
+</table>
+
+    </form>
+</body>
+</html>
